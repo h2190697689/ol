@@ -1,3 +1,3 @@
-import {getBaiduMap} from "./test/baidu";
+import {getImageMap} from "./view/layer/Image";
 
-getBaiduMap();
+getImageMap();

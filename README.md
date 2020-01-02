@@ -5,7 +5,9 @@
 # 渲染
 # Map
 
-# View
+# target  (dom: id)
+
+# view
 1. center
 2. projection: 'EPSG:4326',  (投影坐标)
 3. zoom: 10  (展示比例)
@@ -13,6 +15,15 @@
 5. minZoom, maxZoom
 
 # layer
+1. Tile
+- OSM
+- XYZ
+
+2. Image
+- ImageStatic  (url, imageExtent)
+
+3. Vector(layer)
+- Vector  (source)
 
 
 # api
@@ -31,3 +42,7 @@
 ## layer
 1. map.removeLayer(map.getLayers().item[0])
 2. map.addLayer(mapLayer)
+
+## vectorLayer
+1. vectorLayer.getSource()    listenerKey = vectorLayer.getSource().on("change", function(){})    vectorLayer.getSource().getState() === 'ready'   vectorLayer.getSource().unByKey(listenerKey); 
+
