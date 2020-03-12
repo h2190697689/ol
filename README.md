@@ -1,5 +1,6 @@
 # ol
 - https://www.jianshu.com/p/6785e755fa0d
+- http://anzhihun.coding.me/ol3-primer/ch05/05-08.html
 - http://develop.smaryun.com:81/API/JS/OL3InterfaceDemo/index.htm
 
 # 渲染
